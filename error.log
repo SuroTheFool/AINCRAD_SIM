@@ -1,0 +1,2646 @@
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_strength.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_strength.png
+
+[_load_image] skill_intelligence.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_intelligence.png
+
+[_load_image] skill_endurance.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_endurance.png
+
+[_load_image] skill_shadow_step.png
+Traceback (most recent call last):
+  File "C:\Users\desvi\PycharmProjects\AINCRAD_SIM\src\shop.py", line 61, in _load_image
+    raise FileNotFoundError(f"Asset not found: {path}")
+FileNotFoundError: Asset not found: C:\Users\desvi\PycharmProjects\AINCRAD_SIM\assets\images\skill_shadow_step.png

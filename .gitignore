@@ -1,3 +1,5 @@
-.idea/
+venv_export/
+build/
+dist/
 __pycache__/
-saves/savegame.json
+*.pyc

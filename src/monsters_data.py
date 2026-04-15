@@ -13,7 +13,7 @@ MONSTER_LIST = [
         "image_file"  : "slime_idle.png",
         "display_size": (240, 263),
         "pos": (0.7, 0.89),
-        "bonus" : 2000,
+        "bonus" : 5000,
         "frame_w": 204,
         "frame_h": 204,
         "frame_speed": 0.16,
@@ -23,7 +23,7 @@ MONSTER_LIST = [
     },
     {
         "name"        : "Hyperactive Slime",
-        "hp"          : 250,
+        "hp"          : 200,
         "image_file"  : "slime_idle.png",
         "display_size": (100, 100),
         "pos": (0.6, 0.835),
@@ -53,7 +53,7 @@ MONSTER_LIST = [
     },
 {
     "name"        : "Goblin",
-    "hp"          : 200,
+    "hp"          : 100,
     "image_file"  : "goblin_idle.png",
     "display_size": (285, 300),
     "pos"         : (0.7, 0.90),

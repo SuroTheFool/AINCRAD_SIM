@@ -28,32 +28,82 @@ BOSS_RAIDS = [
         "waves": [
             # --- Wave 1 : two Kobold Sentinels ---
             [
+
                 {
-                    "name"        : "Kobold Sentinel",
-                    "hp"          : 300,
-                    "image_file"  : "ilfang_first_form.png",
-                    "display_size": (220, 220),
-                    "pos"         : (0.55, 0.02, 0.72),
-                    "bonus"       : 0,
+                    "name": "Giant slime",
+                    "hp": 500,
+                    "image_file": "slime_idle.png",
+                    "display_size": (500, 540),
+                    "pos": (0.86, 0.04, 0.90),
+                    "bonus": 5000,
+                    "frame_w": 204,
+                    "frame_h": 204,
+                    "frame_speed": 0.16,
+                    "animations": {
+                        "idle": {"row": 0, "frame_count": 21},
+                    },
                 },
                 {
-                    "name"        : "Kobold Sentinel",
-                    "hp"          : 300,
-                    "image_file"  : "kobold_sentinel.png",
-                    "display_size": (220, 280),
-                    "pos"         : (0.75, 0.02, 0.72),
-                    "bonus"       : 0,
+                    "name": "Giant slime",
+                    "hp": 1000,
+                    "image_file": "slime_idle.png",
+                    "display_size": (500, 540),
+                    "pos": (0.54, 0.04, 0.90),
+                    "bonus": 5000,
+                    "frame_w": 204,
+                    "frame_h": 204,
+                    "frame_speed": 0.16,
+                    "animations": {
+                        "idle": {"row": 0, "frame_count": 21},
+                    },
                 },
+
             ],
             # --- Wave 2 : the Boss ---
             [
                 {
                     "name"        : "Illfang the Kobold Lord",
-                    "hp"          : 2000,
-                    "image_file"  : "ilfang_angry.png",
-                    "display_size": (380, 380),
-                    "pos"         : (0.68, 0.02, 0.68),
+                    "hp"          : 3000,
+                    "image_file"  : "ilf_first_form.png",
+                    "display_size": (615, 430),
+                    "pos"         : (0.68, 0.02, 0.83),
                     "bonus"       : 50,
+                    "frame_w": 784,
+                    "frame_h": 448,
+                    "frame_speed": 0.13,
+                    "animations": {
+                        "idle": {"row": 0, "frame_count": 5},
+                    }
+                },
+                {
+                    "name"        : "Kobold Royal guard",
+                    "hp"          : 1200,
+                    "image_file"  : "royal_guard.png",
+                    "display_size": (300, 300),
+                    "pos"         : (0.50, 0.02, 0.83),
+                    "bonus"       : 50,
+                    "frame_w": 204,
+                    "frame_h": 203,
+                    "frame_speed": 0.13,
+                    "animations": {
+                        "idle": {"row": 0, "frame_count": 5},
+                    }
+                },
+            ],
+            [
+                {
+                    "name": "Ilf - Awakened",
+                    "hp": 6000,
+                    "image_file": "final_ilfang_idle.png",
+                    "display_size": (560, 480),
+                    "pos": (0.67, 0.02, 0.82),
+                    "bonus": 0,
+                    "frame_w": 204,
+                    "frame_h": 169,
+                    "frame_speed": 0.13,
+                    "animations": {
+                        "idle": {"row": 0, "frame_count": 5},
+                    }
                 },
             ],
         ],

@@ -1,6 +1,7 @@
 import math
-import pygame
 import os
+import traceback
+import pygame
 from .settings import SCREEN_WIDTH, SCREEN_HEIGHT, COLOR_WHITE, ASSETS_DIR
 from .shop_data import UPGRADES, STATS_UPGRADES
 from .skill_data import PASSIVE_SKILLS, ACTIVE_SKILLS
@@ -18,7 +19,7 @@ ACTIVE_ITEMS_PER_PAGE  = 3
 
 # --- Tab names ---
 TABS       = ["UPGRADES", "SKILLS", "STATS"]
-SKILL_TABS = ["PASSIF", "ACTIF"]
+SKILL_TABS = ["PASSIF", "ACTIVE"]
 
 # --- Stat bar max ---
 STAT_BAR_MAX = 100
@@ -41,19 +42,33 @@ COLOR_EQUIPPED     = (60,  180, 80)
 COLOR_INT_SCALE    = (120, 180, 255)
 COLOR_OWNED        = (60,  180, 80)
 
+# Error log path
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOG_PATH = os.path.join(BASE_DIR, "error.log")
+
 
 # ---------------------------------------------------------------------------
 # HELPERS
 # ---------------------------------------------------------------------------
 
 def _load_image(filename, size):
+    """Load image with magenta fallback + error.log on failure."""
     path = os.path.join(ASSETS_DIR, filename)
-    if os.path.exists(path):
-        img = pygame.image.load(path).convert_alpha()
-        return pygame.transform.scale(img, size)
-    surf = pygame.Surface(size, pygame.SRCALPHA)
-    surf.fill((255, 0, 255, 180))
-    return surf
+    try:
+        if os.path.exists(path):
+            img = pygame.image.load(path).convert_alpha()
+            return pygame.transform.scale(img, (int(size[0]), int(size[1])))
+        raise FileNotFoundError(f"Asset not found: {path}")
+    except Exception:
+        try:
+            with open(LOG_PATH, "a", encoding="utf-8") as f:
+                f.write(f"\n[_load_image] {filename}\n")
+                f.write(traceback.format_exc())
+        except Exception:
+            pass
+        surf = pygame.Surface((int(size[0]), int(size[1])), pygame.SRCALPHA)
+        surf.fill((255, 0, 255, 180))
+        return surf
 
 
 def _create_gradient_surface(width, height, top_color, bottom_color, radius=15):
@@ -81,7 +96,6 @@ def _draw_bar(screen, x, y, w, h, value, max_value, color_fill, color_bg, radius
 
 
 def _pill_tag(screen, font, text, color, x, y):
-    """Draw a small colored pill tag. Returns the pixel width drawn."""
     surf   = font.render(text, True, COLOR_WHITE)
     px, py = 6, 3
     w      = surf.get_width()  + px * 2
@@ -94,11 +108,6 @@ def _pill_tag(screen, font, text, color, x, y):
 
 
 def _active_skill_damage_preview(skill, player):
-    """
-    Compute the INT-scaled damage preview shown in the shop.
-    Formula mirrors entities.py calculate_damage() :
-        damage = (click_damage + strength) * sqrt(max(1, intelligence)) * multiplier
-    """
     int_mult = math.sqrt(max(1, player.intelligence))
     base     = player.strength
 
@@ -108,7 +117,6 @@ def _active_skill_damage_preview(skill, player):
             f"Damage : {final}  "
             f"= ({player.strength}) × {int_mult:.2f} (√INT {int(player.intelligence)}) "
         )
-
     elif skill["effect_type"] == "duration":
         if "dmg_bonus_pct" in skill:
             bonus_hit = int(base * int_mult * skill["dmg_bonus_pct"])
@@ -122,7 +130,6 @@ def _active_skill_damage_preview(skill, player):
                 f"Crit : {int(player.crit_chance*100)}%  →  {new_crit}%  |  "
                 f"{skill['duration']}s  |  INT scales base dmg"
             )
-
     return ""
 
 
@@ -138,22 +145,17 @@ class Shop:
         self.current_page     = 0
         self._total_pages     = math.ceil(len(UPGRADES) / ITEMS_PER_PAGE)
 
-        # Passive skills pagination
         self.passive_skill_page   = 0
         self._total_passive_pages = math.ceil(len(PASSIVE_SKILLS) / PASSIVE_ITEMS_PER_PAGE)
 
-        # Active skills pagination
         self.active_skill_page   = 0
         self._total_active_pages = math.ceil(len(ACTIVE_SKILLS) / ACTIVE_ITEMS_PER_PAGE)
 
-        # Selected slot index for equipping (None = none selected)
         self.selected_slot = None
 
-        # Levels for UPGRADES + STATS_UPGRADES (passive shop items)
         self.levels = {u["id"]: 0 for u in UPGRADES}
         self.levels.update({u["id"]: 0 for u in STATS_UPGRADES})
 
-        # Ownership for ACTIVE_SKILLS (0 = locked, 1 = owned)
         self.skill_owned = {s["id"]: 0 for s in ACTIVE_SKILLS}
 
         # --- Fonts ---
@@ -167,38 +169,33 @@ class Shop:
         self.font_small  = pygame.font.SysFont("Verdana", 12)
         self.font_tag    = pygame.font.SysFont("Verdana", 10, bold=True)
 
-        # --- Shop button ---
         self.shop_btn_img  = _load_image("shop_widget.png", (180, 89))
         self.shop_btn_rect = self.shop_btn_img.get_rect(
             bottomright=(SCREEN_WIDTH - 15, SCREEN_HEIGHT - 15)
         )
 
-        # --- Overlay background ---
         self.overlay_bg = _create_gradient_surface(
             OVERLAY_W, OVERLAY_H,
             (210, 80, 80, 240), (140, 20, 20, 250), radius=20
         )
 
-        # --- Icons ---
         self.icon_stone    = _load_image("magic_stone.png", (40, 40))
         self.upgrade_icons = {u["id"]: _load_image(u["icon"], (56, 56)) for u in UPGRADES}
         self.stat_icons    = {u["id"]: _load_image(u["icon"], (48, 48)) for u in STATS_UPGRADES}
         self.passive_icons = {s["id"]: _load_image(s["icon"], (44, 44)) for s in PASSIVE_SKILLS}
         self.active_icons  = {s["id"]: _load_image(s["icon"], (56, 56)) for s in ACTIVE_SKILLS}
 
-        # --- Close button ---
         self.close_btn_rect = pygame.Rect(
             OVERLAY_X + OVERLAY_W - 40, OVERLAY_Y + 10, 30, 30
         )
 
-        # --- Dynamic rects (rebuilt each draw) ---
         self.buy_btn_rects      = {}
         self.stat_plus_rects    = {}
         self.tab_rects          = {}
         self.skill_tab_rects    = {}
-        self.equip_btn_rects    = {}   # {skill_id: [rect x5]}
-        self.slot_select_rects  = {}   # {0..4: rect}
-        self.skill_buy_rects    = {}   # {skill_id: rect}  — purchase buttons
+        self.equip_btn_rects    = {}
+        self.slot_select_rects  = {}
+        self.skill_buy_rects    = {}
         self.passive_prev_rect  = None
         self.passive_next_rect  = None
         self.prev_btn_rect      = None
@@ -222,7 +219,6 @@ class Shop:
         skill = self._get_active_skill(skill_id)
         if skill is None:
             return 0
-        # One-time purchase — cost doesn't scale
         return skill["base_cost"]
 
     def handle_click(self, mouse_pos, is_open_click, gold, player, highest_floor=0):
@@ -241,7 +237,6 @@ class Shop:
             self.selected_slot = None
             return gold
 
-        # Main tabs
         for tab_name, rect in self.tab_rects.items():
             if rect.collidepoint(mouse_pos):
                 if self.active_tab != tab_name:
@@ -266,7 +261,8 @@ class Shop:
             for upgrade_id, rect in self.buy_btn_rects.items():
                 if rect.collidepoint(mouse_pos):
                     upgrade = self._get_upgrade_from_list(upgrade_id, UPGRADES)
-                    if upgrade is None or highest_floor < upgrade.get("min_floor", 0):
+                    # Bug fix 1 : +1 aligns 0-based index with 1-based min_floor
+                    if upgrade is None or (highest_floor + 1) < upgrade.get("min_floor", 0):
                         break
                     cost = self.get_current_cost(upgrade_id)
                     if gold >= cost:
@@ -285,7 +281,6 @@ class Shop:
                     return gold
 
             if self.active_skill_tab == "PASSIF":
-                # Passif pagination only
                 if self.passive_prev_rect and self.passive_prev_rect.collidepoint(mouse_pos):
                     if self.passive_skill_page > 0:
                         self.passive_skill_page -= 1
@@ -296,7 +291,6 @@ class Shop:
                     return gold
 
             elif self.active_skill_tab == "ACTIF":
-                # Active pagination
                 if self.active_prev_rect and self.active_prev_rect.collidepoint(mouse_pos):
                     if self.active_skill_page > 0:
                         self.active_skill_page -= 1
@@ -306,20 +300,19 @@ class Shop:
                         self.active_skill_page += 1
                     return gold
 
-                # Slot selector
                 for slot_idx, rect in self.slot_select_rects.items():
                     if rect.collidepoint(mouse_pos):
                         self.selected_slot = slot_idx if self.selected_slot != slot_idx else None
                         return gold
 
-                # BUY buttons (purchase skill for the first time)
                 for skill_id, rect in self.skill_buy_rects.items():
                     if rect.collidepoint(mouse_pos):
                         if self.skill_owned.get(skill_id, 0) == 0:
                             skill = self._get_active_skill(skill_id)
                             if skill is None:
                                 break
-                            if highest_floor < skill.get("min_floor", 0):
+                            # Bug fix 1 : +1 aligns 0-based index with 1-based min_floor
+                            if (highest_floor + 1) < skill.get("min_floor", 0):
                                 break
                             cost = self.get_active_skill_cost(skill_id)
                             if gold >= cost:
@@ -327,12 +320,11 @@ class Shop:
                                 self.skill_owned[skill_id] = 1
                         return gold
 
-                # Equip buttons [1][2][3][4][5]
                 for skill_id, slot_rects in self.equip_btn_rects.items():
                     for si, rect in enumerate(slot_rects):
                         if rect.collidepoint(mouse_pos):
                             if self.skill_owned.get(skill_id, 0) == 0:
-                                return gold   # not owned yet
+                                return gold
                             target = self.selected_slot if self.selected_slot is not None else si
                             player.equip_skill(target, skill_id)
                             self.selected_slot = None
@@ -343,7 +335,8 @@ class Shop:
             for stat_id, rect in self.stat_plus_rects.items():
                 if rect.collidepoint(mouse_pos):
                     upgrade = self._get_upgrade_from_list(stat_id, STATS_UPGRADES)
-                    if upgrade is None or highest_floor < upgrade.get("min_floor", 0):
+                    # Bug fix 1 : +1 aligns 0-based index with 1-based min_floor
+                    if upgrade is None or (highest_floor + 1) < upgrade.get("min_floor", 0):
                         break
                     cost = self.get_current_cost(stat_id)
                     if gold >= cost:
@@ -430,7 +423,8 @@ class Shop:
             uid        = upgrade["id"]
             lvl        = self.levels[uid]
             min_floor  = upgrade.get("min_floor", 0)
-            is_locked  = highest_floor < min_floor
+            # Bug fix 1 : display lock based on same +1 logic
+            is_locked  = (highest_floor + 1) < min_floor
             cost       = self.get_current_cost(uid)
             can_afford = gold >= cost and not is_locked
 
@@ -459,7 +453,7 @@ class Shop:
 
             if is_locked:
                 lock_surf = self.font_desc.render(
-                    f"🔒  Unlocks at Floor {min_floor + 1}", True, COLOR_LOCK_TEXT
+                    f"Unlocks at Floor {min_floor}", True, COLOR_LOCK_TEXT
                 )
                 screen.blit(lock_surf, (text_x, row_y + 36))
             else:
@@ -491,7 +485,7 @@ class Shop:
         self.prev_btn_rect = prev_rect
         can_prev           = self.current_page > 0
         pygame.draw.rect(screen, (180, 50, 50) if can_prev else (60, 20, 20), prev_rect, border_radius=6)
-        prev_lbl = self.font_btn.render("◄ PREV", True, COLOR_WHITE if can_prev else (100, 60, 60))
+        prev_lbl = self.font_btn.render("<- PREV", True, COLOR_WHITE if can_prev else (100, 60, 60))
         screen.blit(prev_lbl, prev_lbl.get_rect(center=prev_rect.center))
 
         page_surf = self.font_desc.render(
@@ -505,7 +499,7 @@ class Shop:
         self.next_btn_rect = next_rect
         can_next           = self.current_page < self._total_pages - 1
         pygame.draw.rect(screen, (180, 50, 50) if can_next else (60, 20, 20), next_rect, border_radius=6)
-        next_lbl = self.font_btn.render("NEXT ►", True, COLOR_WHITE if can_next else (100, 60, 60))
+        next_lbl = self.font_btn.render("NEXT ->", True, COLOR_WHITE if can_next else (100, 60, 60))
         screen.blit(next_lbl, next_lbl.get_rect(center=next_rect.center))
 
     # -----------------------------------------------------------------------
@@ -528,9 +522,7 @@ class Shop:
         row_h   = 66
         padding = 5
 
-        page_skills = self._get_passive_page_skills()
-
-        for i, skill in enumerate(page_skills):
+        for i, skill in enumerate(self._get_passive_page_skills()):
             sid   = skill["id"]
             row_y = content_y + i * (row_h + padding)
 
@@ -556,7 +548,6 @@ class Shop:
             desc_surf = self.font_small.render(skill["description"], True, (180, 180, 180))
             screen.blit(desc_surf, (text_x, row_y + 46))
 
-            # Current stat value on the right
             if player:
                 stat_val = getattr(player, sid, None)
                 if stat_val is not None:
@@ -578,9 +569,9 @@ class Shop:
         btn_y        = OVERLAY_Y + OVERLAY_H - 50
         btn_w, btn_h = 80, 28
 
-        prev_rect             = pygame.Rect(OVERLAY_X + 20, btn_y, btn_w, btn_h)
+        prev_rect              = pygame.Rect(OVERLAY_X + 20, btn_y, btn_w, btn_h)
         self.passive_prev_rect = prev_rect
-        can_prev              = self.passive_skill_page > 0
+        can_prev               = self.passive_skill_page > 0
         pygame.draw.rect(screen, (180, 50, 50) if can_prev else (60, 20, 20), prev_rect, border_radius=5)
         lbl = self.font_btn.render("◄ PREV", True, COLOR_WHITE if can_prev else (100, 60, 60))
         screen.blit(lbl, lbl.get_rect(center=prev_rect.center))
@@ -592,9 +583,9 @@ class Shop:
             center=(OVERLAY_X + OVERLAY_W // 2, btn_y + btn_h // 2)
         ))
 
-        next_rect             = pygame.Rect(OVERLAY_X + OVERLAY_W - 20 - btn_w, btn_y, btn_w, btn_h)
+        next_rect              = pygame.Rect(OVERLAY_X + OVERLAY_W - 20 - btn_w, btn_y, btn_w, btn_h)
         self.passive_next_rect = next_rect
-        can_next              = self.passive_skill_page < self._total_passive_pages - 1
+        can_next               = self.passive_skill_page < self._total_passive_pages - 1
         pygame.draw.rect(screen, (180, 50, 50) if can_next else (60, 20, 20), next_rect, border_radius=5)
         lbl = self.font_btn.render("NEXT ►", True, COLOR_WHITE if can_next else (100, 60, 60))
         screen.blit(lbl, lbl.get_rect(center=next_rect.center))
@@ -605,44 +596,37 @@ class Shop:
         if player is None:
             return
 
-        self.equip_btn_rects  = {}
+        self.equip_btn_rects   = {}
         self.slot_select_rects = {}
-        self.skill_buy_rects  = {}
+        self.skill_buy_rects   = {}
 
-        # Endurance bar
         self._draw_endurance_bar_actif(screen, content_y, player)
         y = content_y + 46
-
-        # Slot selector
         y = self._draw_slot_selector(screen, y, player)
 
-        # Separator
         pygame.draw.line(screen, (200, 80, 80),
                          (OVERLAY_X + 20, y), (OVERLAY_X + OVERLAY_W - 20, y), 1)
         y += 8
 
-        # Skill rows
         row_h = 118
         for skill in self._get_active_page_skills():
             sid       = skill["id"]
             owned     = self.skill_owned.get(sid, 0) == 1
             min_floor = skill.get("min_floor", 0)
-            is_locked = highest_floor < min_floor
+            # Bug fix 1 : +1 aligns 0-based index with 1-based min_floor
+            is_locked = (highest_floor + 1) < min_floor
             cost      = self.get_active_skill_cost(sid)
             can_buy   = not owned and not is_locked and gold >= cost
 
             row_rect = pygame.Rect(OVERLAY_X + 15, y, OVERLAY_W - 30, row_h)
             row_surf = pygame.Surface((row_rect.width, row_rect.height), pygame.SRCALPHA)
-            # Dimmed bg if not owned
             bg_alpha = 90 if owned else 50
             pygame.draw.rect(row_surf, (0, 0, 0, bg_alpha), row_surf.get_rect(), border_radius=10)
             screen.blit(row_surf, row_rect.topleft)
 
-            # Green border if owned
             if owned:
                 pygame.draw.rect(screen, (50, 150, 70), row_rect, width=1, border_radius=10)
 
-            # Icon (dimmed if not owned)
             icon = self.active_icons.get(sid)
             if icon:
                 icon_rect = icon.get_rect(midleft=(OVERLAY_X + 22, y + row_h // 2))
@@ -657,32 +641,26 @@ class Shop:
             else:
                 text_x = OVERLAY_X + 22
 
-            # Label
-            name_col = COLOR_WHITE if owned else (150, 120, 120)
+            name_col  = COLOR_WHITE if owned else (150, 120, 120)
             name_surf = self.font_item.render(skill["label"], True, name_col)
             screen.blit(name_surf, (text_x, y + 6))
 
-            # ACTIVE tag + OWNED tag
             tag_x = text_x + name_surf.get_width() + 8
             _pill_tag(screen, self.font_tag, "ACTIVE", COLOR_ACTIVE_TAG, tag_x, y + 9)
             if owned:
                 tag_x += 52
                 _pill_tag(screen, self.font_tag, "OWNED", COLOR_OWNED, tag_x, y + 9)
 
-            # Description
             screen.blit(
                 self.font_small.render(skill["description"], True,
                                        (200, 200, 200) if owned else (140, 120, 120)),
                 (text_x, y + 28)
             )
-
-            # Endurance cost
             screen.blit(
                 self.font_small.render(f"Cost : {skill['cost_end']} EN", True, COLOR_END_BAR),
                 (text_x, y + 44)
             )
 
-            # INT scaling preview (only if owned)
             if owned:
                 scale_txt = _active_skill_damage_preview(skill, player)
                 screen.blit(
@@ -690,32 +668,37 @@ class Shop:
                     (text_x, y + 60)
                 )
 
-            # Right side — BUY button or equip buttons
             right_x = OVERLAY_X + OVERLAY_W - 120
 
             if not owned:
-                # BUY button
                 btn_rect = pygame.Rect(right_x, y + 38, 100, 38)
                 self.skill_buy_rects[sid] = btn_rect
 
                 if is_locked:
                     pygame.draw.rect(screen, COLOR_LOCKED, btn_rect, border_radius=6)
                     lbl = self.font_btn.render("LOCKED", True, COLOR_LOCK_TEXT)
+                    screen.blit(lbl, lbl.get_rect(center=btn_rect.center))
+                    # Show which floor unlocks it
+                    unlock_surf = self.font_small.render(
+                        f"Floor {min_floor}", True, COLOR_LOCK_TEXT
+                    )
+                    screen.blit(unlock_surf, unlock_surf.get_rect(
+                        center=(btn_rect.centerx, btn_rect.bottom + 10)
+                    ))
                 elif can_buy:
                     pygame.draw.rect(screen, COLOR_BUTTON_BUY, btn_rect, border_radius=6)
                     lbl = self.font_btn.render("BUY", True, COLOR_BUTTON_TEXT)
+                    screen.blit(lbl, lbl.get_rect(center=btn_rect.center))
                 else:
                     pygame.draw.rect(screen, COLOR_BUTTON_CANT, btn_rect, border_radius=6)
                     lbl = self.font_btn.render("BUY", True, (150, 100, 100))
-                screen.blit(lbl, lbl.get_rect(center=btn_rect.center))
+                    screen.blit(lbl, lbl.get_rect(center=btn_rect.center))
 
-                # Price
                 screen.blit(pygame.transform.scale(self.icon_stone, (14, 14)),
                             (right_x, y + 82))
                 cost_surf = self.font_small.render(f"  {cost}", True, COLOR_GOLD)
                 screen.blit(cost_surf, (right_x + 16, y + 82))
             else:
-                # Equip buttons [1][2][3][4][5]
                 self._draw_equip_buttons(screen, sid, y + row_h - 26, player)
 
             y += row_h + 6
@@ -855,12 +838,13 @@ class Shop:
         ]
 
         for i, (stat_id, value, bar_color) in enumerate(stat_defs):
-            upgrade   = self._get_upgrade_from_list(stat_id, STATS_UPGRADES)
+            upgrade = self._get_upgrade_from_list(stat_id, STATS_UPGRADES)
             if upgrade is None:
                 continue
 
             min_floor  = upgrade.get("min_floor", 0)
-            is_locked  = highest_floor < min_floor
+            # Bug fix 1 : consistent +1
+            is_locked  = (highest_floor + 1) < min_floor
             cost       = self.get_current_cost(stat_id)
             can_afford = gold >= cost and not is_locked
 

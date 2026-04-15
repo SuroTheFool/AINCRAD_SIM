@@ -1,92 +1,119 @@
 import json
 import os
+import sys
+import traceback
 
-# Save file location — in a "saves" folder at the project root
 BASE_DIR  = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SAVE_PATH = os.path.join(BASE_DIR, "saves", "savegame.json")
+LOG_PATH  = os.path.join(BASE_DIR, "error.log")
+
+
+def _log_error(context: str, exc: Exception):
+    """Write error to error.log — works in .exe where console is absent."""
+    try:
+        with open(LOG_PATH, "a", encoding="utf-8") as f:
+            f.write(f"\n[{context}]\n")
+            traceback.print_exc(file=f)
+    except Exception:
+        pass
 
 
 def build_save_data(game):
     """
-    Collect all data that needs to be saved.
-    Called by game before quitting or when player saves manually.
-
-    NOTE: player_stats are NOT saved separately anymore.
-    shop_levels is the single source of truth — stats are rebuilt
-    from scratch on load by replaying all purchased upgrades.
-    Only current_end is saved separately (it's not an upgrade level).
+    Collect all persistent data.
+    shop_levels is the single source of truth for player stats.
+    skill_owned and skill_slots are now saved separately.
     """
     return {
         "gold"                  : game.gold,
         "current_floor_index"   : game.current_floor_index,
         "current_skin_id"       : game.current_skin["id"],
-        "current_end"           : game.player.current_end,   # not rebuilt from levels
-        "shop_levels"           : dict(game.shop.levels),    # includes STR/INT/END levels
+        "current_end"           : game.player.current_end,
+        "shop_levels"           : dict(game.shop.levels),
         "highest_floor_unlocked": game.highest_floor_unlocked,
+        # ── Bug fix 3 : active skills persistence ──
+        "skill_owned"           : dict(game.shop.skill_owned),
+        "skill_slots"           : list(game.player.skill_slots),
+        "completed_quests"      : list(game.completed_quests),
     }
 
 
 def save_game(game):
-    os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
-    data = build_save_data(game)
-    with open(SAVE_PATH, "w") as f:
-        json.dump(data, f, indent=4)
-    print(f"Game saved to {SAVE_PATH}")
+    try:
+        os.makedirs(os.path.dirname(SAVE_PATH), exist_ok=True)
+        data = build_save_data(game)
+        with open(SAVE_PATH, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        _log_error("save_game", e)
 
 
 def load_game(game):
     if not os.path.exists(SAVE_PATH):
-        print("No save file found.")
         return False
 
-    with open(SAVE_PATH, "r") as f:
-        data = json.load(f)
+    try:
+        with open(SAVE_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        _log_error("load_game - read file", e)
+        return False
 
-    # --- Economy ---
-    game.gold = data["gold"]
+    try:
+        # --- Economy ---
+        game.gold = data.get("gold", 0)
 
-    # --- Floor ---
-    game.go_to_floor(data["current_floor_index"])
+        # --- Floor ---
+        game.go_to_floor(data.get("current_floor_index", 0))
 
-    # --- Skin ---
-    from .player_data import PLAYER_SKINS
-    skin = next(
-        (s for s in PLAYER_SKINS if s["id"] == data["current_skin_id"]),
-        PLAYER_SKINS[0]
-    )
-    game.player.change_skin(skin)
-    # change_skin() calls __init__ → resets all stats to base values ✅
+        # --- Skin ---
+        from .player_data import PLAYER_SKINS
+        skin = next(
+            (s for s in PLAYER_SKINS if s["id"] == data.get("current_skin_id")),
+            PLAYER_SKINS[0]
+        )
+        game.player.change_skin(skin)
 
-    # --- Restore shop levels ---
-    game.shop.levels = data["shop_levels"]
+        # --- Shop levels ---
+        saved_levels = data.get("shop_levels", {})
+        for key in game.shop.levels:
+            if key in saved_levels:
+                game.shop.levels[key] = saved_levels[key]
 
-    # --- Rebuild stats by replaying all purchased upgrades ---
-    # This avoids any double-application bug.
-    # We replay UPGRADES first, then STATS_UPGRADES.
-    from .shop_data import UPGRADES, STATS_UPGRADES
+        # --- Rebuild stats by replaying all purchased upgrades ---
 
-    for upgrade in UPGRADES:
-        uid   = upgrade["id"]
-        level = game.shop.levels.get(uid, 0)
-        for _ in range(level):
-            game.shop._apply_upgrade(uid, game.player, UPGRADES)
+        from .shop_data import UPGRADES, STATS_UPGRADES
+        for upgrade in UPGRADES:
+            uid   = upgrade["id"]
+            level = game.shop.levels.get(uid, 0)
+            for _ in range(level):
+                game.shop._apply_upgrade(uid, game.player, UPGRADES)
 
-    for upgrade in STATS_UPGRADES:
-        uid   = upgrade["id"]
-        level = game.shop.levels.get(uid, 0)
-        for _ in range(level):
-            game.shop._apply_upgrade(uid, game.player, STATS_UPGRADES)
+        for upgrade in STATS_UPGRADES:
+            uid   = upgrade["id"]
+            level = game.shop.levels.get(uid, 0)
+            for _ in range(level):
+                game.shop._apply_upgrade(uid, game.player, STATS_UPGRADES)
 
-    # --- Endurance current value (regen state, not a level) ---
-    game.player.current_end = data.get("current_end", game.player.endurance * 10)
+        game.player.current_end = data.get("current_end", game.player.endurance * 10)
 
-    # --- Progression ---
-    game.highest_floor_unlocked = data.get("highest_floor_unlocked", 0)
+        game.highest_floor_unlocked = data.get("highest_floor_unlocked", 0)
+        game.completed_quests = set(data.get("completed_quests", []))
+        saved_owned = data.get("skill_owned", {})
+        for skill_id in game.shop.skill_owned:
+            if skill_id in saved_owned:
+                game.shop.skill_owned[skill_id] = saved_owned[skill_id]
 
-    print("Game loaded successfully.")
-    return True
+        saved_slots = data.get("skill_slots", [None] * 5)
+        for i, slot in enumerate(saved_slots[:5]):
+            game.player.skill_slots[i] = slot
+
+        return True
+
+    except Exception as e:
+        _log_error("load_game - restore data", e)
+        return False
 
 
 def save_exists():
-    """Check if a save file exists — used by the menu to enable/disable Load button."""
     return os.path.exists(SAVE_PATH)

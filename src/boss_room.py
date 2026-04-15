@@ -62,6 +62,9 @@ class BossRoom:
             self.state = STATE_DEFEAT
             return self.state
 
+        for monster in self.monsters:
+            monster.update(dt)
+
         if self._is_wave_clear():
             next_wave_index = self.current_wave + 1
             if next_wave_index < len(self.raid_data["waves"]):
@@ -165,7 +168,10 @@ class BossRoom:
                 "display_size": monster_data["display_size"],
                 "pos": (final_x, y),  # already resolved, no range
                 "bonus": monster_data.get("bonus", 0),
-                "apply_random_offset": False,
-            }
+                "apply_random_offset": False,"frame_w"            : monster_data.get("frame_w"),
+                "frame_h"            : monster_data.get("frame_h"),
+                "frame_speed"        : monster_data.get("frame_speed", 0.12),
+                "animations"         : monster_data.get("animations"),
+        }
             self.monsters.append(Monster(**m_data))
 
