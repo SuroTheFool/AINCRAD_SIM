@@ -2,6 +2,8 @@ import math
 import os
 import traceback
 import pygame
+from sympy.printing.pretty.pretty_symbology import bold_unicode
+
 from .settings import SCREEN_WIDTH, SCREEN_HEIGHT, COLOR_WHITE, ASSETS_DIR
 from .shop_data import UPGRADES, STATS_UPGRADES
 from .skill_data import PASSIVE_SKILLS, ACTIVE_SKILLS
@@ -29,7 +31,7 @@ COLOR_BUTTON_BUY   = (220, 220, 220)
 COLOR_BUTTON_TEXT  = (20,  20,  20)
 COLOR_BUTTON_CANT  = (100, 40,  40)
 COLOR_GOLD         = (255, 230, 100)
-COLOR_WHITE_SOFT   = (255, 255, 255)
+COLOR_WHITE_SOFT   = (0, 0, 0)
 COLOR_TAB_ACTIVE   = (220, 80,  80)
 COLOR_TAB_IDLE     = (80,  20,  20)
 COLOR_END_BAR      = (80,  180, 255)
@@ -41,7 +43,10 @@ COLOR_ACTIVE_TAG   = (220, 140, 40)
 COLOR_EQUIPPED     = (60,  180, 80)
 COLOR_INT_SCALE    = (120, 180, 255)
 COLOR_OWNED        = (60,  180, 80)
-
+FONT_PATH = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "assets", "fonts", "PixelPurl.ttf"
+)
 # Error log path
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_PATH = os.path.join(BASE_DIR, "error.log")
@@ -164,7 +169,7 @@ class Shop:
         self.font_item   = pygame.font.SysFont("Verdana", 17, bold=True)
         self.font_desc   = pygame.font.SysFont("Verdana", 13)
         self.font_btn    = pygame.font.SysFont("Verdana", 13, bold=True)
-        self.font_gold   = pygame.font.SysFont("Verdana", 17, bold=True)
+        self.font_gold   = pygame.font.Font(FONT_PATH, 30)
         self.font_stat   = pygame.font.SysFont("Verdana", 16, bold=True)
         self.font_small  = pygame.font.SysFont("Verdana", 12)
         self.font_tag    = pygame.font.SysFont("Verdana", 10, bold=True)
@@ -290,7 +295,7 @@ class Shop:
                         self.passive_skill_page += 1
                     return gold
 
-            elif self.active_skill_tab == "ACTIF":
+            elif self.active_skill_tab == "ACTIVE":
                 if self.active_prev_rect and self.active_prev_rect.collidepoint(mouse_pos):
                     if self.active_skill_page > 0:
                         self.active_skill_page -= 1
@@ -352,8 +357,8 @@ class Shop:
     # -----------------------------------------------------------------------
 
     def draw_shop_button(self, screen, gold):
-        icon_x = SCREEN_WIDTH - 220
-        icon_y = 10
+        icon_x = SCREEN_WIDTH - 270
+        icon_y = 7
         screen.blit(self.icon_stone, (icon_x, icon_y))
         gold_surf = self.font_gold.render(f"{int(gold)} Magic Stones", True, COLOR_WHITE_SOFT)
         screen.blit(gold_surf, (icon_x + 50, icon_y + 8))

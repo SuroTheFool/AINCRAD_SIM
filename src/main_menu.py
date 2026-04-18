@@ -16,7 +16,7 @@ BG_PATH          = os.path.join(ASSETS_DIR, "main_bg.jpg")
 MUSIC_PATH       = os.path.join(ASSETS_DIR, "..", "sounds", "menu_music.mp3")
 START_SOUND_PATH = os.path.join(ASSETS_DIR, "..", "sounds", "sfx", "start.wav")
 
-# ---------------------------------------------------------------------------
+# ----------------------------------------- ----------------------------------
 # PARAMETERS
 # ---------------------------------------------------------------------------
 ZOOM_SPEED      = 0.34

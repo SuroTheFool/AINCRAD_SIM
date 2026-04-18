@@ -141,7 +141,7 @@ class BossRoom:
     def _draw_raid_title(self, screen):
         """Boss raid name shown at the top-left."""
         surf = self.font_title.render(self.raid_data["name"], True, COLOR_WHITE)
-        screen.blit(surf, (20, 15))
+        screen.blit(surf, (67, 15))
 
     def _is_wave_clear(self):
         """Returns True if all monsters in the current wave are dead."""

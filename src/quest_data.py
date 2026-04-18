@@ -16,7 +16,7 @@ QUESTS = [
     # ----------------------------------------------------------------
     {
         "id"          : "floor1_lam",
-        "label"       : "What an amazing World 1",
+        "label"       : "What an Amazing World",
         "description" : "Defeat the monster that doesn't belong to this floor with Lam help.",
         "floor_id"    : 1,
         "unlocked_by" : None,
@@ -31,7 +31,7 @@ QUESTS = [
                         "hp"          : 100,
                         "image_file"  : "dark_slime_idle.png",
                         "display_size": (210, 150),
-                        "pos"         : (0.50, 0.04, 0.78),
+                        "pos"         : (0.43, 0.04, 0.78),
                         "frame_w": 528,
                         "frame_h": 403,
                         "frame_speed": 0.12,
@@ -96,7 +96,7 @@ QUESTS = [
                         "hp": 120,
                         "image_file": "dark_slime_idle.png",
                         "display_size": (360, 293),
-                        "pos": (0.54g, 0.04, 0.78),
+                        "pos": (0.54, 0.04, 0.78),
                         "frame_w": 528,
                         "frame_h": 403,
                         "frame_speed": 0.12,
@@ -136,7 +136,7 @@ QUESTS = [
         ],
 
         "reward": [
-            {"type": "gold",         "amount": 3400},
+            {"type": "gold",         "amount": 650},
             {"type": "stat", "stat": "intelligence", "amount": 3},
             # {"type": "hidden_skill", "skill_id": "double_strike"},
         ],
@@ -147,90 +147,186 @@ QUESTS = [
     # Kizmel helps wave 1 only — disappears on wave 2 (boss wave)
     # ----------------------------------------------------------------
     {
-        "id"          : "floor1_ambush",
-        "label"       : "Dark Elf Ambush",
-        "description" : "Survive the ambush in the catacombs.",
+        "id"          : "floor1_lam2",
+        "label"       : "What an Amazing World 2",
+        "description" : "Be prepared this quest is not a joke.",
         "floor_id"    : 1,
-        "unlocked_by" : "floor1_trial",
-        "background"  : os.path.join("floors", "boss_floor_1"),
+        "unlocked_by" : "floor1_lam",
+        "background"  : os.path.join("floors", "quests"),
         "time_limit"  : 75,
 
         "waves": [
             {
                 "mobs": [
                     {
-                        "name"        : "Dark Elf Scout",
+                        "name"        : "Golem Boar",
                         "hp"          : 80,
-                        "image_file"  : "goblin_idle.png",
-                        "display_size": (180, 220),
-                        "pos"         : (0.60, 0.04, 0.78),
-                        "bonus"       : 5,
-                        "dialog"      : {0.3: "Retreat !"},
-                    },
-                    {
-                        "name"        : "Dark Elf Scout",
-                        "hp"          : 80,
-                        "image_file"  : "goblin_idle.png",
-                        "display_size": (180, 220),
-                        "pos"         : (0.75, 0.04, 0.78),
-                        "bonus"       : 5,
-                        "dialog"      : {0.3: None},
-                    },
-                    {
-                        "name"        : "Dark Elf Scout",
-                        "hp"          : 80,
-                        "image_file"  : "goblin_idle.png",
-                        "display_size": (180, 220),
-                        "pos"         : (0.85, 0.02, 0.78),
-                        "bonus"       : 5,
-                        "dialog"      : None,
-                    },
+                        "image_file"  : "frenzy_glitch_idle.png",
+                        "display_size": (200, 200),
+                        "pos"         : (0.40, 0.04, 0.78),
+                        "frame_w": 498,
+                        "frame_h": 498,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 8},
+                        },
+                        "bonus"       : 10,
+                        "dialog"      : {0.3: "GROAR!"},
+                    }
                 ],
-                "allies_present": ["Kizmel"],   # Kizmel helps wave 1
+                "allies_present": ["Lam"],
             },
             {
                 "mobs": [
                     {
-                        "name"        : "Dark Elf Commander",
-                        "hp"          : 450,
-                        "image_file"  : "ilfang_angry.png",
-                        "display_size": (260, 310),
-                        "pos"         : (0.68, 0.02, 0.80),
-                        "bonus"       : 50,
-                        "dialog"      : {
-                            0.6 : "You insects...",
-                            0.3 : "I underestimated you.",
-                            0.1 : "This floor... will be your grave.",
+                        "name": "Golem Boar",
+                        "hp": 80,
+                        "image_file": "frenzy_glitch_idle.png",
+                        "display_size": (200, 200),
+                        "pos": (0.365, 0.04, 0.78),
+                        "frame_w": 498,
+                        "frame_h": 498,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 8},
+                        },
+                        "bonus": 10,
+                        "dialog": {0.3: "GROAR!"},
+                    },
+                    {
+                        "name": "Golem Boar",
+                        "hp": 80,
+                        "image_file": "frenzy_glitch_idle.png",
+                        "display_size": (220, 220),
+                        "pos": (0.54, 0.01 , 0.82),
+                        "frame_w": 498,
+                        "frame_h": 498,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 8},
+                        },
+                        "bonus": 10,
+                        "dialog": {0.3: "GROAR!"},
+                    },
+                ],
+
+                "allies_present": ["Lam"],
+            },
+            {
+                "mobs": [
+                    {
+                        "name": "Lam",
+                        "hp": 500,
+                        "image_file": "lam_ennemy_idle.png",
+                        "display_size": (170, 330),
+                        "pos": (0.63, 0.008, 0.79),
+                        "frame_w": 390,
+                        "frame_h": 718,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 16},
+                        },
+                        "bonus": 10,
+                        "dialog": {1: "Thank you far taking the aggro, You made things easier for me.",
+                                   0.85: "If only you could simply stay at the town and enjoy this world like the others",
+                                   0.5: "Wow you don't give up impressive, So it's true that you get stronger When you fight to survive",
+                                   0.3: "Promising people like you disturb my sleep, just thinking about returning in the real world make me mad!",
+                                   0.1: "Things are about to get serious."
+                                   },
+
+                    },
+
+                    {
+                        "name": "Golem Boar",
+                        "hp": 80,
+                        "image_file": "frenzy_glitch_idle.png",
+                        "display_size": (200, 200),
+                        "pos": (0.365, 0.04, 0.78),
+                        "frame_w": 498,
+                        "frame_h": 498,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 8},
+                        },
+                        "bonus": 10,
+                        "dialog": {0.3: "GROAR!"},
+                    },
+{
+                        "name": "Dark Slime",
+                        "hp": 120,
+                        "image_file": "dark_slime_idle.png",
+                        "display_size": (150, 120),
+                        "pos": (0.52, 0.04, 0.78),
+                        "frame_w": 528,
+                        "frame_h": 403,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 12},
+                        },
+                        "bonus": 10,
+                        "dialog": {
+                            1.0: "BLOU",
                         },
                     },
                 ],
-                "allies_present": [],           # Kizmel gone — you face the boss alone
+                "allies_present": [],
+            },
+            {
+                "mobs": [
+                    {
+                        "name": "Lam",
+                        "hp": 2500,
+                        "image_file": "lam_ennemy_idle.png",
+                        "display_size": (170, 330),
+                        "pos": (0.54, 0.008, 0.79),
+                        "frame_w": 390,
+                        "frame_h": 718,
+                        "frame_speed": 0.12,
+                        "animations": {
+                            "idle": {"row": 0, "frame_count": 16},
+                        },
+                        "bonus": 10,
+                        "dialog": {1: "I hate taking a human life by my own hands... but you leave me no choice",
+                                   0.85: "Pft, you still don't get it ? Once we clear this game do you think the government is going to help us integrate in the society?",
+                                   0.7: "We have an opportunity to live without working for the rest of our lives, but you prefer to be utopic",
+                                   0.5: "Give up already...",
+                                   0.35: "HOW CAN YOU STILL BE HERE, I'M A BETA TESTER ! TAKING DOWN A NEWBIE LIKE YOU SHOULD BE NOTHING",
+                                   0.21: "Just cancel the quest my friend, you're not going to take my life right ?",
+                                   0.18: "Please stop it.",
+                                   0.05: "What a shame... Loosing this perfect world"
+                                   },
+
+                    },
+                ],
+                "allies_present": [],
             },
         ],
 
         "allies": [
             {
-                "name"        : "Kizmel",
-                "image_file"  : "kizmel_idle.png",
-                "display_size": (180, 220),
-                "pos"         : (0.30, 0.82),
-                "frame_w"     : None,
-                "frame_h"     : None,
-                "frame_speed" : 0.12,
-                "animations"  : None,
-                "auto_dps"    : 10,
-                "dps_interval": 1.0,
+                "name"        : "Lam",
+                "image_file"  : "lam_idle.png",
+                "display_size": (280, 520),
+                "pos"         : (0.64, 1.045),
+                "frame_w": 364,
+                "frame_h": 656,
+                "frame_speed": 0.12,
+                "animations": {
+                    "idle": {"row": 0, "frame_count": 9},
+                },
+                "auto_dps"    : 8,
+                "dps_interval": 1.2,
                 "dialog"      : [
-                    "I'll handle the scouts !",
-                    None,   # Kizmel says nothing on wave 2 — she's already gone
+                    "I was a beta-tester , I even made it to the 36th floor",
+                    "You have too much potential you might finish this game... I don't like it",
                 ],
             },
         ],
 
         "reward": [
-            {"type": "stat",           "stat": "strength",     "amount": 2},
+            {"type": "stat",           "stat": "strength",     "amount": 4},
             {"type": "stat",           "stat": "intelligence", "amount": 1},
-            {"type": "hidden_upgrade", "skill_id": "double_strike"},
+            {"type": "gold",           "amount": 1040},
         ],
     },
 

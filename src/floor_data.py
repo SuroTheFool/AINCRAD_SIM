@@ -37,8 +37,8 @@ FLOORS = [
         "id": 2,
         "name": "Floor 2 — Westeria ",
         "monsters": [
-            {"name": "Goblin", "weight": 20},
-            {"name": "Slime", "weight": 80},
+            {"name": "Golem Boar", "weight": 30},
+            {"name": "Dark Slime", "weight": 30},
         ],
         "layers": [
             {

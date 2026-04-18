@@ -42,11 +42,11 @@ MONSTER_LIST = [
         "display_size": (230, 230),
         "pos": (0.67    , 0.87),
         "bonus" : 0,
-        "frame_w": 236,
-        "frame_h": 236,
-        "frame_speed": 0.064,
+        "frame_w": 498,
+        "frame_h": 498,
+        "frame_speed": 0.074,
         "animations": {
-            "idle": {"row": 0, "frame_count": 8},
+            "idle": {"row": 0, "frame_count": 6},
             # "hurt" : {"row": 1, "frame_count": 2},
             # "death": {"row": 2, "frame_count": 5},
         },
@@ -66,5 +66,32 @@ MONSTER_LIST = [
         # "hurt" : {"row": 1, "frame_count": 2},
         # "death": {"row": 2, "frame_count": 5},
     },
-}
+},
+{
+        "name"        : "Golem Boar",
+        "hp"          : 80,
+        "image_file"  : "frenzy_glitch_idle.png",
+        "display_size": (200, 200),
+        "pos"         : (0.52,  0.84),
+        "frame_w": 498,
+        "frame_h": 498,
+        "frame_speed": 0.12,
+        "animations": {
+            "idle": {"row": 0, "frame_count": 8},
+        },
+},
+{
+        "name": "Dark Slime",
+        "hp": 120,
+        "image_file": "dark_slime_idle.png",
+        "display_size": (360, 293),
+        "pos": (0.54, 0.88),
+        "frame_w": 528,
+        "frame_h": 403,
+        "frame_speed": 0.12,
+        "animations": {
+            "idle": {"row": 0, "frame_count": 12},
+        },
+},
+
 ]

@@ -13,6 +13,7 @@ from .floor_button import FloorButton
 from .skill_bar   import SkillBar
 from .audio_manager import AudioManager
 from .hit_marker  import HitMarkerManager
+from .stats_tracker import StatsTracker
 
 
 class Game:
@@ -36,6 +37,7 @@ class Game:
         self.menu         = Menu()
         self.skill_bar    = SkillBar()
         self.hit_markers  = HitMarkerManager()
+        self.stats = StatsTracker()
         self.mode         = "normal"
         self.boss_room    = None
         self.quest_room   = None
@@ -207,6 +209,12 @@ class Game:
                     damage, skill_id = self.skill_bar.handle_keydown(
                         event, self.player, monster=monster
                     )
+                    if skill_id is not None:
+                        # ── STATS ──
+                        self.stats.record_skill_use(
+                            skill_id,
+                            self.current_floor_index + 1
+                        )
                     if damage is not None and skill_id is not None:
                         if monster and monster.is_alive():
                             monster.take_damage(damage)
@@ -282,13 +290,18 @@ class Game:
                     return
 
                 if self.shop.is_open:
-                    old_gold  = self.gold
+                    old_gold = self.gold
                     self.gold = self.shop.handle_click(
                         event.pos, is_open_click=False,
                         gold=self.gold, player=self.player
                     )
                     if self.gold < old_gold:
                         self.audio.play_sfx("buy")
+                        # ── STATS ──
+                        self.stats.record_purchase(
+                            "unknown", old_gold - self.gold,
+                                       self.current_floor_index + 1
+                        )
                 else:
                     result = self.floor.handle_click(event.pos, self.player)
                     if result:
@@ -301,9 +314,19 @@ class Game:
                             result["damage"], result["is_crit"],
                             self.floor.monster.rect.center
                         )
+                        # ── STATS ──
+                        self.stats.record_damage(
+                            result["damage"], result["is_crit"],
+                            self.current_floor_index + 1
+                        )
                         if result["killed"]:
                             self.audio.play_sfx("death")
                             self.gold += int(result["gold"] * self.player.gold_multiplier)
+                            # ── STATS ──
+                            self.stats.record_kill(
+                                self.floor.monster.name,
+                                self.current_floor_index + 1
+                            )
 
     # ------------------------------------------------------------------
     # Update
@@ -311,6 +334,7 @@ class Game:
 
     def _update(self):
         dt = self.clock.get_time() / 1000.0
+        self.stats.update(dt, self.current_floor_index + 1)  # ── STATS ──
         self.floor.update(dt)
         self.player.update(dt)
         self.player.update_floating_texts()
