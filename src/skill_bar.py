@@ -61,12 +61,6 @@ def _load_icon(filename, size):
 
 class SkillBar:
     """
-    In-game HUD that shows :
-      ┌─────────────────────────────────────────┐
-      │  ENDURANCE ████████░░░░░░  60/100       │
-      │  [  1  ] [  2  ] [  3  ] [  4  ] [  5  ]│
-      └─────────────────────────────────────────┘
-
     - Slots display the equipped skill icon + key label
     - A duration bar drains inside the slot while effect is active
     - Slot darkens when endurance is insufficient

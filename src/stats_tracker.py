@@ -31,11 +31,11 @@ class StatsTracker:
                 writer.writeheader()
 
     # ------------------------------------------------------------------
-    # ENREGISTREMENT
+    # RECORDING
     # ------------------------------------------------------------------
 
     def _write(self, event_type, value, metadata, floor_id):
-        """Écrit une ligne dans le CSV."""
+        """write a row in the csv."""
         row = {
             "timestamp"  : datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "event_type" : event_type,
@@ -49,7 +49,7 @@ class StatsTracker:
             writer.writerow(row)
 
     def record_damage(self, damage, is_crit, floor_id):
-        """Appelé à chaque clic qui inflige des dégâts."""
+        """Called at every click""""
         metadata = "crit" if is_crit else "normal"
         self._write("damage", int(damage), metadata, floor_id)
 
@@ -62,7 +62,7 @@ class StatsTracker:
         self._write("purchase", int(cost), upgrade_id, floor_id)
 
     def record_skill_use(self, skill_id, floor_id):
-        """Appelé quand le joueur active un skill."""
+        """"Called whenever a player use a skill."""
         self._write("skill", 1, skill_id, floor_id)
 
     # ------------------------------------------------------------------

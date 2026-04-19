@@ -32,3 +32,28 @@ Traceback (most recent call last):
   File "C:\Users\User\PycharmProjects\AINCRAD_SIM\src\floor.py", line 108, in _spawn_monster
     data    = next(m for m in MONSTER_LIST if m["name"] == chosen)
 StopIteration
+[AudioManager] _load_sfx(hit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(crit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(death.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(hit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(crit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(death.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(hit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(crit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(death.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(hit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(crit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(death.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(hit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(crit.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(death.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data
+[AudioManager] _load_sfx(buy.wav) : Couldn't read first 4 bytes of audio data

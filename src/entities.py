@@ -300,9 +300,9 @@ class Mob(Monster):
 
     dialog format in data :
         {
-            0.75: "J'ai encore de l'énergie !",
-            0.50: "Tu vas le regretter...",
-            0.25: None,          # None = silence à ce seuil
+            0.75: "I'm still here",
+            0.50: "You're going to regret",
+            0.25: None,          # None = Don't talk
         }
     Keys are HP ratio floats (0.0 → 1.0), checked after each hit.
     Each threshold fires at most once per fight.

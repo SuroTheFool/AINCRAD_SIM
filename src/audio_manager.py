@@ -52,7 +52,7 @@ class AudioManager:
         try:
             pygame.mixer.music.fadeout(800)
             pygame.mixer.music.load(path)
-            pygame.mixer.music.set_volume(0.45)
+            pygame.mixer.music.set_volume(0.04)
             pygame.mixer.music.play(-1, fade_ms=800)
             self._current_track = track_id
         except pygame.error as e:
@@ -77,7 +77,7 @@ class AudioManager:
         sound = self._sfx.get(sfx_id)
         if sound:
             try:
-                sound.set_volume(0.6)
+                sound.set_volume(0.081)
                 sound.play()
             except pygame.error:
                 pass

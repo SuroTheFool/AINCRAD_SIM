@@ -26,7 +26,6 @@ BOSS_RAIDS = [
         "background": os.path.join("floors", "boss_floor_1"),
 
         "waves": [
-            # --- Wave 1 : two Kobold Sentinels ---
             [
 
                 {
