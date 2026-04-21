@@ -2569,3 +2569,74 @@ timestamp,event_type,value,metadata,floor_id,session_id
 2026-04-21 19:28:43,kill,1,Golem Boar,2,fcf60ffd
 2026-04-21 19:28:43,damage,10,normal,2,fcf60ffd
 2026-04-21 19:28:43,playtime,10,total_400s,2,fcf60ffd
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:03,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:04,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:04,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:04,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:04,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:04,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:04,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,damage,23,crit,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:05,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:06,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,kill,1,Dark Slime,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:07,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,23,crit,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:08,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,playtime,10,total_10s,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:09,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:10,kill,1,Golem Boar,2,85f2f20f
+2026-04-21 19:52:11,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:11,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:11,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:11,damage,10,normal,2,85f2f20f
+2026-04-21 19:52:11,damage,10,normal,2,85f2f20f
