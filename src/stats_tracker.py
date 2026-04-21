@@ -1,4 +1,3 @@
-
 import csv
 import os
 import uuid
@@ -49,7 +48,7 @@ class StatsTracker:
             writer.writerow(row)
 
     def record_damage(self, damage, is_crit, floor_id):
-        """Called at every click""""
+        """Called at every click"""
         metadata = "crit" if is_crit else "normal"
         self._write("damage", int(damage), metadata, floor_id)
 

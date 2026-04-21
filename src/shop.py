@@ -2,7 +2,6 @@ import math
 import os
 import traceback
 import pygame
-from sympy.printing.pretty.pretty_symbology import bold_unicode
 
 from .settings import SCREEN_WIDTH, SCREEN_HEIGHT, COLOR_WHITE, ASSETS_DIR
 from .shop_data import UPGRADES, STATS_UPGRADES
