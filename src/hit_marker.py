@@ -1,32 +1,18 @@
-"""
-hit_marker.py
-=============
-Effets visuels de coup style slash anime.
-
-Normal : 2 traits blancs/jaunes qui traversent l'écran en diagonale
-Crit   : slash rouge vif + ombre noire décalée, plus large et plus long,
-         avec un éclat central blanc au point d'impact
-"""
-
 import math
 import random
 import pygame
 
 
 # ---------------------------------------------------------------------------
-# COULEURS
+# COLORS
 # ---------------------------------------------------------------------------
-COLOR_NORMAL_1   = (255, 255, 180)   # blanc chaud
-COLOR_NORMAL_2   = (255, 200,  60)   # jaune doré
+COLOR_NORMAL_1   = (255, 255, 180)
+COLOR_NORMAL_2   = (255, 200,  60)
 
-COLOR_CRIT_RED   = (220,  20,  20)   # rouge vif
-COLOR_CRIT_DARK  = ( 40,   0,   0)   # noir rouge (ombre)
-COLOR_CRIT_CORE  = (255, 255, 255)   # éclat central blanc
+COLOR_CRIT_RED   = (220,  20,  20)
+COLOR_CRIT_DARK  = ( 40,   0,   0)
+COLOR_CRIT_CORE  = (255, 255, 255)
 
-
-# ---------------------------------------------------------------------------
-# UTILITAIRES
-# ---------------------------------------------------------------------------
 
 def _lerp(a, b, t):
     return a + (b - a) * t
@@ -134,8 +120,7 @@ class HitMarker:
     # -----------------------------------------------------------------------
 
     def _draw_crit(self, screen, t, alpha):
-        # Phase 1 (0 → 0.3) : apparition explosive
-        # Phase 2 (0.3 → 1) : dissolution lente
+
         if t < 0.3:
             expand = (t / 0.3) ** 0.5   # très rapide au début
         else:
@@ -146,7 +131,6 @@ class HitMarker:
         length_shadow = length_main * 0.85
         width_shadow  = width_main  * 1.3
 
-        # Glissement du slash vers la direction de coupe
         offset = self.travel * _lerp(0, 18, t)
         px     = -math.sin(self.angle_main) * offset
         py     =  math.cos(self.angle_main) * offset
@@ -155,7 +139,6 @@ class HitMarker:
         surf = pygame.Surface((size, size), pygame.SRCALPHA)
         cx = cy = size // 2
 
-        # --- Ombre noire (dessinée en premier, légèrement décalée) ---
         shadow_offset_x = math.cos(self.angle_shadow) * 6
         shadow_offset_y = math.sin(self.angle_shadow) * 6
         shadow_alpha    = int(alpha * 0.75)
@@ -181,7 +164,6 @@ class HitMarker:
                                       length_main * 0.9, edge_w)
             pygame.draw.polygon(surf, (*COLOR_CRIT_CORE, int(alpha * 0.7)), pts_edge)
 
-        # --- Éclat central au point d'impact (disparaît vite) ---
         if t < 0.35:
             core_t = t / 0.35
             core_r = int(_lerp(10, 2, core_t))
@@ -189,7 +171,6 @@ class HitMarker:
             if core_r > 0:
                 pygame.draw.circle(surf, (*COLOR_CRIT_CORE, core_a),
                                    (cx, cy), core_r)
-                # Petits rayons autour de l'éclat
                 for i in range(4):
                     ray_angle = self.angle_main + i * (math.pi / 2)
                     r1 = core_r + 2

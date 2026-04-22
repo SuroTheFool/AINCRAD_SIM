@@ -13,7 +13,7 @@ MONSTER_LIST = [
         "image_file"  : "slime_idle.png",
         "display_size": (240, 263),
         "pos": (0.7, 0.89),
-        "bonus" : 5000,
+        "bonus" : 120,
         "frame_w": 204,
         "frame_h": 204,
         "frame_speed": 0.16,
