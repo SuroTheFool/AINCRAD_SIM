@@ -3,7 +3,7 @@
 ## Project Description
 - **Game Genre:** Idle Clicker, MMORPG-inspired
 
-AINCRAD SIMULATOR is a cookie-clicker style idle game built with Python and Pygame, set in the floating castle Aincrad from Sword Art Online. You play as Louis, a player trapped in the virtual world, who must fight through monster-filled floors by clicking to deal damage. Each kill rewards Magic Stones — the in-game currency — which can be spent in the shop to permanently upgrade combat stats.
+AINCRAD SIMULATOR is a cookie-clicker style idle game built with Python and Pygame, set in the floating castle Aincrad from Sword Art Online. You are a player trapped in the virtual world, who must fight through monster-filled floors by clicking to deal damage. Each kill rewards Magic Stones — the in-game currency — which can be spent in the shop to permanently upgrade combat stats.
 
 The game features a floor progression system, timed boss raids with multiple enemy waves, animated sprites, quest rooms with ally characters, an active skill system, and a full save/load system. A built-in statistics tracker records gameplay data across sessions and can be analyzed through a standalone `analysis.py` program.
 
@@ -15,7 +15,7 @@ The core gameplay loop is: **click monster → earn Magic Stones → buy upgrade
 
 To clone this project:
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/SuroTheFool/AINCRAD_SIM
 cd AINCRAD_SIM
 ```
 
@@ -139,6 +139,7 @@ AINCRAD_SIM/
 ---
 
 
+
 ## Known Bugs
 
 - No major bugs known at this time. 
@@ -164,4 +165,13 @@ This project utilizes several third-party assets to enhance the immersive experi
 - **Kills**: *"Big Explosion"* via **Lightning Editor** (Creative Commons).
 - **Shop**: *"Pop Sound Effect"* via **UniversalSoundEffects** (Creative Commons).
 
+---
+
+---
+
+## Unfinished Works
+
+
+This project is under the MIT LICENSE because implementing 100 floor alone take too much time.
+If you are ambitious enough to make 100 floor on this pygame feel free to use my code
 ---
