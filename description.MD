@@ -109,14 +109,6 @@ Describe the characteristics of the data used in your system.
 
 
 
---- 
-
-## 6. Changed Proposed Features (Optional)
-If your final project differs from the original proposal, explain the changes here.
-
-- What was changed  
-- Why the change was made  
-
 ---
 
 ## 7. External Sources
@@ -130,3 +122,21 @@ Include:
 - Author/creator name  
 - Source link (if available)  
 - License information (if applicable)
+
+
+Original file line number	Diff line number	Diff line change
+@@ -1,5 +1,7 @@
+Credits for the assets used in my game
+
+For sounds effect and music if no specific website is credited it mean that it was found on youtube
+
+Icons : Flaticon free right pictures (Smashicons) / Generative AI
+
+SFX :
+Source: YouTube • Channel: Orwa Farran : Game MainMenu Music ( 4th Album ) / copyright free music
+Souce : Freesound.org • EilasSFX : Game started
+'Endless Storm' byMakai-symphony | War Music (No Copyright) - Author : BreakingCopyright - Royalty Free music
+First town : Happy Village Town Royalty Free Music - Youtube Motion Array
+Hit sounds : SWORD SLASH SOUND EFFECT | NO COPYRIGHT - BAROGS GAMING
+Death sound : Big explosion sound effect - Lightning editor & Creative commons
+Buy sfx : Pop - Sound Effect univesalsoundeffects & Creative commons
