@@ -7761,4 +7761,5 @@ timestamp,event_type,value,metadata,floor_id,session_id
 2026-04-22 10:12:33,kill,1,Slime,1,2f49fd2a
 2026-04-22 10:12:33,damage,35,normal,1,2f49fd2a
 2026-04-22 10:12:33,damage,35,normal,1,2f49fd2a
-2026-04-22 10:12:33,kill,1,Hyperactive Slime,1,2f49fd2a
+2026-04-22 10:12:33,kill,1,Hyperactive Slime,1,2f49fd2a2026-04-28 19:56:14,damage,1,normal,2,47f22792
+2026-04-28 19:56:21,playtime,10,total_10s,1,47f22792

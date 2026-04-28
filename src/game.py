@@ -186,13 +186,6 @@ class Game:
                     else:
                         self.menu.toggle()
 
-                if event.key == pygame.K_RIGHT:
-                    self.go_to_floor(self.current_floor_index + 1)
-                if event.key == pygame.K_LEFT:
-                    self.go_to_floor(self.current_floor_index - 1)
-                if event.key == pygame.K_b:
-                    self.start_boss_raid(floor_id=1)
-
                 # Skill keys
                 if not self.shop.is_open and not self.menu.is_open:
                     if self.mode == "normal":

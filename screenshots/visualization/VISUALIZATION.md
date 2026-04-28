@@ -1,8 +1,7 @@
-# VISUALIZATION.md
 # AINCRAD SIMULATOR — Data Visualization Documentation
 
 This file documents all data visualizations in the AINCRAD SIMULATOR statistics system. 
-All visualizations are drawn inside a standalone `analysis.py` program using Tkinter Canvas primitives. 
+All visualizations are made inside a standalone `analysis.py` program using Tkinter Canvas primitives. 
 Data is collected automatically during gameplay and stored in a single CSV file: `saves/stats.csv`.
 
 ---

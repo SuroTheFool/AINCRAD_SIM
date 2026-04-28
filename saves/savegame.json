@@ -1,10 +1,10 @@
 {
-    "gold": 3037,
+    "gold": 0,
     "current_floor_index": 0,
     "current_skin_id": "louis_floor_2",
     "current_end": 10,
     "shop_levels": {
-        "click_damage": 7,
+        "click_damage": 0,
         "crit_chance": 0,
         "crit_multiplier": 0,
         "gold_multiplier": 0,
@@ -13,7 +13,7 @@
         "intelligence": 0,
         "endurance": 0
     },
-    "highest_floor_unlocked": 1,
+    "highest_floor_unlocked": 0,
     "skill_owned": {
         "sword_burst": 0,
         "battle_aura": 0,
