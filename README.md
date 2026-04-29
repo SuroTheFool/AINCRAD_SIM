@@ -75,9 +75,8 @@ python analysis.py
 4. Open the **Shop** (bottom right) to spend Magic Stones on upgrades
 5. Upgrade **STR**, **INT**, and **END** in the Stats tab to increase your power
 6. Purchase and equip **Active Skills** in the Skills tab — bind them to slots 1–5
-7. Press **B** to challenge the floor boss in a timed raid
-8. Defeat the boss to unlock the next floor
-9. Progress is automatically saved on quit
+7. Defeat the boss to unlock the next floor 
+8. Progress is automatically saved on quit
 
 ### Tips
 - Intelligence scales damage multiplicatively via √INT — it is the most impactful stat late game
@@ -149,8 +148,8 @@ AINCRAD_SIM/
 This project utilizes several third-party assets to enhance the immersive experience of Aincrad.
 
 ### Visuals & UI
-- **Typography**: [PixelPurl.ttf](https://fontlink-if-available.com) — A custom pixel font used for the UI and Magic Stones counter.
-- **Icons**: [Flaticon](https://www.flaticon.com/) — High-quality UI icons provided by **Smashicons**.
+- **Typography**: PixelPurl.ttf — A custom pixel font used for the UI and Magic Stones counter.
+- **Icons**: Flaticon — High-quality UI icons provided by **Smashicons**.
 - **Generative AI**: Used for specific environmental textures and concept art.
 - **Original Assets**: All character and monster sprites were custom-designed for this project.
 
@@ -160,7 +159,7 @@ This project utilizes several third-party assets to enhance the immersive experi
 - **Boss raid / Quest**: *Endless Storm* by **Makai-symphony** via **BreakingCopyright** (Royalty Free).
 
 ### Sound Effects (SFX)
-- **System Start**: *"Game Started"* by **EilasSFX** via [Freesound.org](https://freesound.org).
+- **System Start**: *"Game Started"* by **EilasSFX** via Freesound.org.
 - **Combat**: *"Sword Slash Sound Effect"* by **Barogs Gaming** (No Copyright).
 - **Kills**: *"Big Explosion"* via **Lightning Editor** (Creative Commons).
 - **Shop**: *"Pop Sound Effect"* via **UniversalSoundEffects** (Creative Commons).
