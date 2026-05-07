@@ -1,4 +1,4 @@
-import pygame
+    import pygame
 import os
 from .settings import SCREEN_WIDTH, SCREEN_HEIGHT, COLOR_WHITE, ASSETS_DIR
 from .save_manager import save_game, load_game, save_exists
