@@ -58,15 +58,8 @@ Define the goals of the system.
 ---
 
 ## 3. UML Class Diagram
-Provide a UML class diagram that represents the system structure.
 
-Your diagram must include:
-- Classes  
-- Attributes  
-- Methods (optional but recommended)  
-- Relationships (e.g., association, inheritance)
-
-    [Click here to view my UML Class Diagram (PDF)](./UML_Diagram.pdf)
+[Click here to view my UML Class Diagram (PDF)](./uml_diagram.pdf)
 
 ---
 
@@ -110,22 +103,12 @@ Describe the characteristics of the data used in your system.
 
 
 ---
+## 6. Changed Proposed Features
+
+- A quest system was added beyond the requirements, this quest system help my game to reduce it's weakness of having repetitive features, also adding Lore to my game
 
 ## 7. External Sources
-Give credit for any external materials used in the project.
 
-- Source code  
-- Libraries or frameworks  
-- Images, music, or artwork  
-
-Include:
-- Author/creator name  
-- Source link (if available)  
-- License information (if applicable)
-
-
-Original file line number	Diff line number	Diff line change
-@@ -1,5 +1,7 @@
 Credits for the assets used in my game
 
 For sounds effect and music if no specific website is credited it mean that it was found on youtube
