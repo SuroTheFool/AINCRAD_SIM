@@ -50,13 +50,19 @@ Define the goals of the system.
 ## 4. Object-Oriented Programming Implementation
 
 - **Game:** The central controller that owns the main game loop and all subsystems.
+- **Floor** Manages the visual layout of the current floor the player is on, including layered backgrounds and decorations. Handles monster spawning with a weighted probability system
 - **Player:** Manages character sprite sheet animations and handles all combat statistics including click damage, critical chance, critical multiplier, auto DPS, gold multiplier, strength, intelligence, and endurance.
 - **Monster:** Represents a clickable enemy on the current floor. Features include HP, click detection via mask, sprite sheet animation, and HP bar rendering. Supports both static and animated sprites.
+- **Mob (extends Monster)** Monster with dialog bubble support. Triggers speech bubbles at specific HP thresholds during combat.
+- **Ally (extends Monster)**  Friendly entity that appears during quests. Deals automatic DPS to living targets, displays wave-specific dialog bubbles, and disappears between waves based on quest configuration.
 - **Menu:** Pause menu overlay used to save the current game state, load a previous save, or quit the game.
+- **Handles** serialization and deserialization of the full game state to a JSON file. Rebuilds player stats on load by replaying all purchased upgrades
 - **Shop:** Manages the upgrade overlay where the player spends Magic Stones on upgrades, skills, and stats. It applies purchased stat buffs directly to the Player instance.
 - **BossRoom:** Manages boss raids that allow the player to progress to the next floor. Handles multiple enemy waves, a countdown timer, and victory/defeat state detection. Defeating the boss unlocks the next floor in the progression system.
 - **QuestRoom:** Manages quest raids that allow the player to increase stats and gain rewards. Handles multiple enemy waves, a countdown timer, and victory/defeat state detection. Defeating the last wave grants a reward.
 - **SkillBar:** In-game HUD displaying the five active skill slots and the endurance bar. Handles keyboard input for skill activation (keys 1–5, top row and numpad), and renders skill icons, endurance cost labels, and duration drain bars for active effects.
+- **StatsTracker** Records gameplay events (damage dealt, monsters killed, purchases, skill activations, playtime) into a CSV file. Each session is identified by a unique session ID
+- **SaveManager** Handles serialization and deserialization of the full game state to a JSON file. Rebuilds player stats on load by replaying all purchased upgrades
 
 ---
 
