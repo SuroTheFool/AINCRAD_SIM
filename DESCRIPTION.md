@@ -63,7 +63,9 @@ Define the goals of the system.
 - **SkillBar:** In-game HUD displaying the five active skill slots and the endurance bar. Handles keyboard input for skill activation (keys 1–5, top row and numpad), and renders skill icons, endurance cost labels, and duration drain bars for active effects.
 - **StatsTracker** Records gameplay events (damage dealt, monsters killed, purchases, skill activations, playtime) into a CSV file. Each session is identified by a unique session ID
 - **SaveManager** Handles serialization and deserialization of the full game state to a JSON file. Rebuilds player stats on load by replaying all purchased upgrades
-
+- **FloorButton** Manages the floor navigator overlay with three tabs. The Travel tab lists all floors with their unlock status and lets the player teleport to any unlocked floor. The Boss tab displays available boss raids, allowing the player to launch a raid and unlock the next floor. The Quest tab shows all quests available on the current floor.
+- **HitMarker/HitMarkerManager** HitMarker renders a single animated slash for normal hits and critical hits. HitMarkerManager owns the list of active Hitmarker instances, spawns new ones on demand, updates their timers each frame, and removes expired ones automatically.
+**MainMenu** Displays the title screen with an animated zooming background, a blinking prompt, and the game title. Pressing any key or clicking triggers a visual sequence, then starting the game.
 ---
 
 ## 5. Statistical Data
